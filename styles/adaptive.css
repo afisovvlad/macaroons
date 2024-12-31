@@ -1,0 +1,442 @@
+@media screen and (max-width: 1179px) {
+
+    .logo {
+        margin-right: 103px;
+    }
+
+    .macaroons {
+        padding: 63px 0 0 0;
+        height: 850px;
+        box-sizing: border-box;
+    }
+
+    .macaroons .container {
+        flex-direction: column;
+    }
+
+    .macaroons-title {
+        margin-bottom: 76px;
+    }
+
+    .macaroons-message {
+        margin-bottom: 43px;
+    }
+
+    .action {
+        margin-bottom: -4px;
+        z-index: 3;
+        position: relative;
+    }
+
+    .macaroons-image {
+        top: -81px;
+        left: 161px;
+    }
+
+    .advantages-info {
+        flex-direction: column;
+    }
+
+    .advantages-text {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .advantages-title {
+        margin: 0 auto;
+    }
+
+    .advantages-message {
+        max-width: 673px;
+        margin-bottom: 40px;
+        margin-top: 63px;
+    }
+
+    .advantages-image {
+        margin-bottom: 8px;
+    }
+
+    .advantages-image img {
+        width: 302px;
+    }
+
+    .advantages-items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .advantages-item {
+        margin-right: 0;
+        margin-top: 80px;
+        max-width: 220px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products-items {
+        grid-template-columns: repeat(2, fit-content(264px));
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 136px;
+        grid-column-gap: 29px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .order .container {
+        background-image: none;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .rights {
+        margin-right: 186px;
+    }
+}
+
+@media  screen and (max-width: 1030px){
+    .order-info {
+        justify-content: space-between;
+    }
+
+    .order-form {
+        flex-shrink: 0;
+    }
+
+    .order-info-image {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .advantages-items {
+        max-width: 542px;
+    }
+
+    .advantages-item {
+        max-width: 263px;
+    }
+
+    .order-info-image {
+        width: 356px;
+        position: absolute;
+        height: 411px;
+        right: 0;
+        bottom: -80px;
+        margin-right: 0;
+    }
+    .order-info {
+        position: relative;
+    }
+
+
+    .klubnichka1 {
+        left: 350px;
+        top: 250px;
+        animation-name: klubnichka1;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        animation-delay: 0.3s;
+    }
+
+    .klubnichka2 {
+        top: 160px;
+        animation-name: klubnichka2;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes klubnichka1 {
+        0% {
+            top: 250px;
+        }
+
+        100% {
+            top: 230px;
+        }
+    }
+
+    @keyframes klubnichka2 {
+        0% {
+            top: 160px;
+        }
+
+        100% {
+            top: 140px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .header .container {
+        justify-content: flex-start;
+    }
+
+    .header-number {
+        display: none;
+    }
+
+    .macaroons {
+        padding: 45px 0 0 0;
+        height: 700px;
+    }
+
+    .macaroons .container {
+        align-items: center;
+    }
+
+    .macaroons-text {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .macaroons-title {
+        font-size: 32px;
+        line-height: 1.25;
+    }
+
+    .macaroons-message {
+        position: relative;
+        z-index: 4;
+    }
+
+    .action {
+        margin-bottom: 38px;
+    }
+
+    .macaroons-image {
+        width: 250px;
+        position: relative;
+        top: 0;
+        left: -9px;
+    }
+
+    .macaroons-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .macaroons-image:before, .macaroons-image:after {
+        position: absolute;
+        top: 25px;
+        left: 55px;
+    }
+
+    .advantages-title {
+        font-size: 30px;
+        line-height: 1.167;
+
+    }
+
+    .advantages-image {
+        margin-bottom: 88px;
+    }
+
+    .advantages-message {
+        font-size: 16px;
+        line-height: 1.437;
+    }
+
+    .advantages-item:not(:last-child) {
+        margin-right: 0;
+    }
+
+    .products .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .products-title {
+        font-size: 30px;
+        line-height: 1.833;
+    }
+
+    .products-items {
+        grid-template-columns: 1fr;
+        grid-row-gap: 136px;
+    }
+
+    .product-item {
+        width: 267px;
+    }
+
+    .item-image.left {
+        left: 37px;
+    }
+
+    .order {
+        background-image: none;
+    }
+
+    .order-title {
+        font-size: 30px;
+        line-height: 1.167;
+    }
+
+    .order-message {
+        font-size: 16px;
+        line-height: 1.437;
+    }
+
+    .order-info {
+        position: relative;
+    }
+
+    .order-image {
+        width: 352px;
+        height: 499px;
+        align-self: flex-end;
+        position: relative;
+        top: 90px;
+    }
+
+    .klubnichka1 {
+        display: none;
+    }
+
+    .adaptive-order-image-375 {
+        position: absolute;
+        top: 135px;
+        right: 0;
+    }
+
+    .footer {
+        padding: 50px 0 50px 0;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .logo {
+        margin-right: 0;
+        margin-bottom: 40px;
+        order: 1;
+    }
+
+    .footer-number {
+        margin-bottom: 40px;
+        order: 2;
+    }
+    
+    .instagram {
+        order: 3;
+    }
+
+    .stroke-one {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stroke-two {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .instagram-text {
+        order: 1;
+        margin-bottom: 40px;
+    }
+
+    .rights {
+        margin-right: 0;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 556px){
+
+    .container {
+        padding: 0 15px 0 15px;
+        min-width: 320px;
+    }
+
+    .header .container {
+        justify-content: space-around;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .menu {
+        z-index: 7;
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000c9;
+    }
+
+    .menu ul {
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 15px;
+    }
+
+    .menu ul li {
+        margin: 15px 0 !important;
+    }
+
+    .menu.open {
+        display: block;
+    }
+
+    .close {
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #8213287F;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 490px) {
+    .advantages-items {
+        max-width: 345px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .order-info-image {
+        display: none;
+    }
+
+    .order-form {
+        width: 100%;
+    }
+
+    .order-form button {
+        width: 100%;
+    }
+
+    .order-form input {
+        width: 100%;
+    }
+
+    .surprise {
+        right: 15px;
+        bottom: 15px;
+    }
+    
+    .surprise-image {
+        width: 75px;
+        height: 75px;
+    }
+}
